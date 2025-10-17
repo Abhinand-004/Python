@@ -5,3 +5,4 @@ print(para[0],para[-1]);
 print(para[0:50]);
 print(para.replace('Python','PYTHON'));
 print(para.lower());
+print(para.split(','));
