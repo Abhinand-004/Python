@@ -1,6 +1,6 @@
 import random
 import math
-names_input = input("Enter customer names (comma-separated): ").split(",")
+names_input = input("Enter customer names: ").split(",")
 unique_names = list(set(names_input))
 winners = random.choices(unique_names, k=2)
 reversed_winners = [winner[::-1] for winner in winners]
